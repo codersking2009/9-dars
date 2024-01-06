@@ -1,0 +1,88 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.text {
+    width: 200px;
+    height: 24px;
+}
+
+.create {
+    width: 100px;
+    height: 30px;
+    background-color: darkcyan;
+    transition: .5s;
+    border: 2px solid transparent;
+    color: white;
+    border-radius: 5px;
+}
+.create:hover{
+    background-color: white;
+    border-color: darkcyan;
+    color: darkcyan;
+}
+.delate:hover{
+    background-color: white;
+    border-color: darkcyan;
+    color: darkcyan;
+}
+.delate {
+    width: 100px;
+    height: 30px;
+    background-color: darkcyan;
+    transition: .5s;
+    border: 2px solid transparent;
+    color: white;
+    border-radius: 5px;
+}
+
+.div2 {
+    margin-top: 30px;
+    width: 60%;
+    height: 800px;
+    display: none;
+}
+
+.dog {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.cat {
+    width: 100%;
+    height: 100%;
+    display: none;
+
+}
+
+.lion {
+    width: 100%;
+    height: 100%;
+    display: none;
+
+}
+
+.wolf {
+    width: 100%;
+    height: 100%;
+    display: none;
+
+}
+
+.bear {
+    width: 100%;
+    height: 100%;
+    display: none;
+
+}
+
+.img {
+    width: 100%;
+    height: 500px;
+}
